@@ -48,7 +48,7 @@ Since you still haven't created the signup form, go ahead and add a form that ma
 
 Finally, add a POST route to your `routes/auth.routes.js` to receive the data from the signup form and create a new user with the data.
 
-Make sure you install **bcryptjs** npm package and require it in `routes/auth.routes.js` file.
+Make sure you install **bcrypt** npm package and require it in `routes/auth.routes.js` file.
 
 ## Iteration #2: The `login` feature
 
