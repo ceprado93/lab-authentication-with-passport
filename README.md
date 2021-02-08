@@ -41,7 +41,7 @@ Now you are ready to start. 🚀
 
 ## Iteration #1: The `signup` feature
 
-The repo you cloned comes with a `User` model and a `router` file already made for you. It also has all the views you need, although some of them are empty. :smile:
+The repo you cloned comes with a `User` model and a `routes` folder already made for you. It also has all the views you need, although some of them are empty. :smile:
 
 Add a new `GET` route to your `routes/auth.routes.js` file with the path `/signup` and point it to your `views/auth/signup.hbs` file. This route needs to render the signup form.
 Since you still haven't created the signup form, go ahead and add a form that makes a POST request to `/signup`, with a field for `username` and `password`.
